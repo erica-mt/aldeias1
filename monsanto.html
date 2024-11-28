@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monsanto</title>
+    <link rel="icon" type="image/x-icon" href="/imagens/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/imagens/logo.png" alt="Logo">
+        </div>
+        <div class="titulo">
+            <h1>Aldeias Históricas</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+               <a class="navbar-nav" href="paginainicial.html">
+                  <img src="/imagens/castle.svg" width="30" height="30" class="mx-2">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+         
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Aldeias Históricas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="almeida.html">Almeida</a></li>
+                           <li><a class="dropdown-item" href="castelorodrigo.html">Castelo Rodrigo</a></li>
+                           <li><a class="dropdown-item" href="linhares.html">Linhares da Beira</a></li>
+                           <li><a class="dropdown-item" href="marialva.html">Marialva</a></li>
+                           <li><a class="dropdown-item" href="monsanto.html">Monsanto</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+         
+                  <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalLogin">Login</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="registo.html">Registo</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>   
+    </div>
+
+    <div class="container">
+        <main>
+            <h3 style="margin-top: 20px;">Monsanto</h3>
+            <p>Alcandorada num cabeço que se impõe ao olhar na maior parte dos horizontes, a Aldeia Histórica de Portugal de Monsanto detém um encanto singular, para o que contribuem os dois títulos atribuídos no séc. XX – Aldeia Mais Portuguesa de Portugal, em 1938, e o de Aldeia Histórica em 1995. Ícone turístico da região, Monsanto é uma experiência peculiar para quem a visita. Concederam-lhe foral D. Afonso Henriques, D. Sancho I, D. Sancho II e D. Manuel . A parte mais antiga está no ponto mais alto, onde os Templários construíram uma cerca com uma torre de menagem.</p>
+
+            <div id="carouselAldeias" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/imagens/monsanto/monsanto2.jpg"  alt="Imagem de Monsanto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/monsanto/monsanto3.jpg" alt="Imagem de Monsanto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/monsanto/monsanto6.jpg"  alt="Imagem de Monsanto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/monsanto/monsanto7.jpg" alt="Imagem de Monsanto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/monsanto/monsanto9.jpg" alt="Imagem de Monsanto">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAldeias" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAldeias" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Seguinte</span>
+                </button>
+            </div>
+
+            <br/>
+
+            <h3 style="margin-top: 20px;">História</h3>
+
+            <p>
+                Monsanto situa-se a nordeste das Terras de Idanha, aninhada na encosta de uma elevação escarpada - o cabeço de Monsanto (Mons Sanctus) - que irrompe abruptamente na campina e que, no seu ponto mais elevado, atinge 758 metros. Pelas várias vertentes da encosta e no sopé do monte, existem lugarejos dispersos, atestando a deslocação populacional em direção à planície.
+                <br/><br/>
+                Trata-se de um local muito antigo, onde se regista a presença humana desde o paleolítico. Vestígios arqueológicos dão conta de um castro lusitano e da ocupação romana no denominado campo de S. Lourenço, no sopé do monte. Vestígios da permanência visigótica e árabe foram também encontrados.
+                <br/><br/>
+                D. Afonso Henriques conquista Monsanto aos Mouros e em 1165 faz a sua doação à Ordem dos Templários, que sob as ordens de D. Gualdim Pais, mandou edificar o Castelo. O primeiro Foral foi concedido por este rei em 1174, sucessivamente confirmado por D. Sancho I (1190) e D. Afonso II (1217). A D. Sancho I se deve também a repovoação e reedificação da fortaleza, desmantelada nas lutas contra Leão, novamente reparadas um século depois, pelos Templários. D. Dinis deu-lhe Carta de Feira em 1308, a realizar junto da ermida de S. Pedro de Vir-a-Corça. El-Rei D. Manuel I outorgou-lhe Foral Novo (1510) e deu-lhe a categoria de vila. Em meados do séc. XVII, D. Luís de Haro, ministro de Filipe IV, tenta o cerco a Monsanto, sem sucesso. Mais tarde, no início do século XVIII, o Duque de Berwick cerca também Monsanto, mas o exército português, comandado pelo Marquês de Minas, derrotou o invasor nos contrafortes da escarpada elevação.
+                <br/><br/>
+                Em 1758, Monsanto era sede de concelho, privilégio que manteve até 1853. No século XIX, o imponente Castelo medieval de Monsanto foi parcialmente destruído pela explosão acidental do paiol de munições.
+                <br/><br/>
+                Convida-se para uma visita ao que resta do poderoso Castelo na escarpada encosta onde se pode observar a alcáçova, a cintura de muralhas e torres de vigia, bem como as belíssimas ruínas da Capela de S. Miguel do séc. XII, e a Capela de Santa Maria do Castelo.
+                <br/><br/>
+                A gloriosa resistência aos invasores (romanos ou árabes - não se sabe bem) comemora-se na Festa de Santa Cruz, deitando-se das muralhas do castelo simbólicos cântaros com flores, levando as mulheres ao cimo das torres as tradicionais bonecas de trapos - as marafonas.
+                <br/><br/>
+                A Capela de S. Pedro de Vir-à-Corça ou Ver-a-Corça, Imóvel de Interesse Público, situada na base do monte nos arredores da povoação, entre os lugares de Eugénia e Carroqueiro, é um templo românico construído em granito, datando provavelmente do séc. XIII, em que se destaca uma rosácea. Em seu redor se realizava a feira autorizada por D. Dinis em 1308.
+                <br/><br/>
+                A Estação Arqueológica romana de São Lourenço, Imóvel de Interesse Público, situada na Freguesia de Monsanto, corresponde presumivelmente a uma vila romana que integra um complexo termal. São também conhecidos quatro túmulos romanos em granito. Perto do local das ruínas, vê-se também um troço de pavimento.
+            </p>
+
+            <br/>
+
+            <hr class="hr"/>
+
+            <h3 class="text-center">Visite Monsanto</h3>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yx7KlG1nHJ4?si=PZjFtAnX5w1IZJwd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        
+            <br/><br/>
+            
+            <div class="row">
+                <div class="col-7">
+                    <h5 class="text-center">Como chegar</h5>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106316.15834457736!2d-7.118997627075508!3d40.01305385651238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d75bd5000d04d%3A0x824a112737bb26!2sMonsanto!5e1!3m2!1sen!2spt!4v1731251770468!5m2!1sen!2spt" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <table>
+                        <thead>
+                            <h5>Como vai estar o tempo</h5>
+                        </thead>
+                        <tbody id="tempo">
+                            <tr>
+                                <th style="width:130px;"></th>
+                                <th style="width:50px;"></th>
+                                <th style="width:50px;"></th>
+                                <th style="width:50px;"></th>
+                            </tr>
+                        </tbody>
+                        <script>
+                            let url = 'https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1050200.json';
+                
+                            fetch(url)
+                                .then(response =>
+                                response.json()).then(data => {
+                                const dados = Array.from(data.data);
+                                for (var i = 0; i < dados.length; i++) {
+                                    var table = document.getElementById("tempo");
+                                    var row = table.insertRow(-1);
+                                    var cell1 = row.insertCell(0);
+                                    var cell2 = row.insertCell(1);
+                                    var cell3 = row.insertCell(2);
+                                    var cell4 = row.insertCell(3);
+
+                                    if (dados[i].idWeatherType === 1) {
+                                        var imagem = cell2.innerHTML = "<img src='/imagens/sol.png'/>";
+                                    }
+                                    else if (dados[i].idWeatherType >= 24 && dados[i].idWeatherType <= 27 || dados[i].idWeatherType === 16 || dados[i].idWeatherType === 17 || dados[i].idWeatherType >= 2 && dados[i].idWeatherType <= 5) {
+                                        var imagem = cell2.innerHTML = "<img src='/imagens/nublado.png'/>";
+                                    }
+                                    else if (dados[i].idWeatherType <= 23 && dados[i].idWeatherType >= 18 ||dados[i].idWeatherType >= 6 && dados[i].idWeatherType <= 8) {
+                                        var imagem = cell2.innerHTML = "<img src='/imagens/aguaceiros.png'/>";
+                                    }
+                                    else if (dados[i].idWeatherType <= 15 && dados[i].idWeatherType >= 9 ||dados[i].idWeatherType === 8) {
+                                        var imagem = cell2.innerHTML = "<img src='/imagens/chuva.png'/>";
+                                    }
+
+                                    const diaTempo = dados[i].forecastDate;
+                                    const objetoData = new Date(diaTempo);
+                                    const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+                                    const diaMes = objetoData.getDate();
+                                    const mes = meses[objetoData.getMonth()];
+                                    var dia = cell1.innerHTML = `${diaMes} de ${mes}`;
+                                        
+                                    var tMinima = cell3.innerHTML = dados[i].tMin + "ºC";
+                                    var tMaxima = cell4.innerHTML = dados[i].tMax + "ºC";
+                                 }
+                             })
+                            .catch(error => console.log(error))
+                        </script>
+                    </table>
+                </div>
+            </div>
+
+            <br/><br/>
+
+            <div class="accordion accordion-flush" id="accordionMonsanto">
+                <div class="accordion-item">
+                    <h1 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        O que visitar
+                        </button>
+                    </h1>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionMonsanto">
+                        <div class="accordion-body">
+                            <h5 class="text-center">O que visitar</h5>
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="https://aldeiashistoricasdeportugal.com/wp-content/uploads/2020/04/gruta-2.jpg" class="card-img-top" alt="Gruta">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Gruta</h5>
+                                                <p class="card-text">Este abrigo, anteriormente uma furda, hoje picaresco ponto turístico, resulta do espaço livre na base de vários penedos. Na arquitetura popular do lugar, estas grandes rochas é comum integrarem as construções. Servem muitas vezes de paredes, afeiçoadas ou em bruto, ou, são aproveitados parcialmente como cobertura. No topo da rua do Castelo, por exemplo, pode ver-se uma casa integralmente coberta por colossal penedo, aqui designada “casa de uma só telha”. A arquitetura popular tradicional, espontânea e orgânica, implanta-se nas irregularidades topográficas e convive com a presença de duros afloramentos e penedos graníticos, mostrando identidade própria, com soluções arquitetónicas e materiais bem adaptados à rude geografia, mas desajustadas do conforto contemporâneo.</p>
+                                                <p>Fonte: Aldeias Históricas de Portugal</p>
+                                                <a href="https://maps.app.goo.gl/vUXmLtT43HbpboGeA" class="btn btn-light">Google Maps</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="https://aldeiashistoricasdeportugal.com/wp-content/uploads/2020/04/capela-de-sao-joao-1.jpg" class="card-img-top" alt="Capela de S. João">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Capela de S. João</h5>
+                                                <p class="card-text">Neste recanto rochoso aplanado na aba nascente do castelo encontram-se as ruínas da capela de S. João. Desta pouco ou nada se sabe. Restos de azulejaria do século XVI que se encontram nos seus escombros indicam que existiria nessa época e que em meados do século XVIII, por estar incluída num rol dos edifícios religiosos de Monsanto, supõe-se que estaria ainda aberta ao culto. Os restos das paredes mostram um pequeno templo constituído por nave e capela-mor e uma só porta axial, o arco triunfal é reconstrução recente pouco rigorosa e desproporcionada. Por hoje, é um magnífico miradouro para leitura da paisagem, nomeadamente sobre a Superfície de Castelo Branco e a sua envolvente, ou apenas para a apreensão sensitiva do espaço.</p>
+                                                <p>Fonte: Aldeias Históricas de Portugal</p>
+                                                <a href="https://maps.app.goo.gl/vt5JYs2kXmd1iAPS9" class="btn btn-light">Google Maps</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="https://aldeiashistoricasdeportugal.com/wp-content/uploads/2020/04/antiga-capela-da-senhora-do-socorro.jpg" class="card-img-top" alt="Antiga Capela da Senhora do Socorro">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Antiga Capela da Senhora do Socorro</h5>
+                                                <p class="card-text">Capela barroca construída em 1692 por iniciativa particular e com administração privada. É de nave única com portal axial de lintel reto, onde se encontra extensa inscrição referente a sua instituição, encimado por cornija que serve de apoio a uma janela em capialço. Após prolongado abandono e encontrando-se em estado de ruína foi reconstruída na década de 1940, acrescentada de um piso para habitação; no rés-do-chão instalou-se uma loja de comércio. Estas obras profundamente alteradoras da volumetria e organização espacial do templo, deixam, ainda assim, reconhecer a antiga tipologia pela permanência dos elegantes cunhais em forma de pilastras toscanas; no interior conserva-se apenas a pia de água benta.</p>
+                                                <p>Fonte: Aldeias Históricas de Portugal</p>
+                                                <a href="https://maps.app.goo.gl/oXh3BArZSwQ7ywUN8" class="btn btn-light">Google Maps</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="https://aldeiashistoricasdeportugal.com/wp-content/uploads/2019/01/rascunho-automatico-339.jpg" class="card-img-top" alt="Igreja da Misericórdia">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Igreja da Misericórdia</h5>
+                                                <p class="card-text">Datada do Séc. XVI serviu de Igreja paroquial até à edificação da atual Igreja Matriz. Apresenta estilo renascentista e localiza-se no largo do Pelourinho. No seu interior exibe três altares, uma imagem de S. Pedro e um conjunto de imaginária sobre o ciclo da Paixão.</p>
+                                                <p>Fonte: Aldeias Históricas de Portugal</p>
+                                                <a href="https://maps.app.goo.gl/adwh3hqpDiGqik2A6" class="btn btn-light">Google Maps</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Onde comer e onde ficar
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionMonsanto">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h2 class="text-center">Restaurantes</h2>
+                                    <ul class="list-group">
+                                        <li class="list-group-item text-center">
+                                            <h5>Taverna Lusitana <i class="fa-solid fa-utensils"></i></h5>
+                                            <p>R. do Castelo n19, 6060-091 Monsanto<br/>Contacto: 277 314 009</p>
+                                            <a href="https://maps.app.goo.gl/5SfHFcFskipPN3kv9" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                        <li class="list-group-item text-center">
+                                            <h5>Petiscos & Granitos  <i class="fa-solid fa-utensils"></i></h5>
+                                            <p>R. do Castelo 16, 6060-091 Monsanto<br/>Contacto: 964 200 974</p>
+                                            <a href="https://maps.app.goo.gl/oFM9DtrEMSpkMKdL7" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                        <li class="list-group-item text-center">
+                                            <h5>Monsanto Café e Bistro  <i class="fa-solid fa-utensils"></i></h5>
+                                            <p>Av. Fernando Ramos Rocha 21, 6060-091 Monsanto<br/>Contacto: 277 314 121</p>
+                                            <a href="https://maps.app.goo.gl/k2ciLKUwSE8BSzoh9" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                        <li class="list-group-item text-center">
+                                            <h5>Adega Típica O Cruzeiro  <i class="fa-solid fa-utensils"></i></h5>
+                                            <p>Av. Fernando Ramos Rocha 17, 6060-091 Monsanto<br/>Contacto: 936 407 676</p>
+                                            <a href="https://maps.app.goo.gl/H1Q181wYp1HsbCjf6" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h2 class="text-center">Alojamento</h2>
+                                    <ul class="list-group">
+                                        <li class="list-group-item text-center">
+                                            <h5>Monsanto GeoHotel Escola  <i class="fa-solid fa-bed"></i></h5>
+                                            <p>R. da Capela 1, 6060-091 Monsanto<br/>Contacto: 277 314 061</p>
+                                            <a href="https://maps.app.goo.gl/VVFr1BmCmz6EPdQT7" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                        <li class="list-group-item text-center">
+                                            <h5>Casas da Villa <i class="fa-solid fa-bed"></i></h5>
+                                            <p>R. do Pardieiro 6 e 7, 6060-094 Monsanto<br/>Contacto: 960 281 677</p>
+                                            <a href="https://maps.app.goo.gl/BM3a8RghceyNo1iP9" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                        <li class="list-group-item text-center">
+                                            <h5>Casa Pires Mateus <i class="fa-solid fa-bed"></i></h5>
+                                            <p>R. Fernando Namora, 6060-091 Monsanto<br/>Contacto: 277 314 018</p>
+                                            <a href="https://maps.app.goo.gl/GvQjonQrbuHRocbq9" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                        <li class="list-group-item text-center">
+                                            <h5>Casa do Castello Monsanto  <i class="fa-solid fa-bed"></i></h5>
+                                            <p>R. do Sol Velho 5, 6060-091 Monsanto<br/>Contacto: 966 018 474</p>
+                                            <a href="https://maps.app.goo.gl/grjNpkPzswSZnJ7A8" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/><br/>
+
+        </main>
+
+        <footer>
+            <div class="text-center p-3 bg-light">
+                Aldeias Históricas 2024
+            </div>
+        </footer>
+
+    </div> 
+
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Login</h5>
+            </div>
+            <div class="modal-body">
+              <form>
+                Utilizador <input type="text" class="form-control" id="nomeutilizador" placeholder="Introduza o nome de utilizador" required/>
+                Password <input type="password" class="form-control" id="password" placeholder="Introduza uma password" required/>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-light">Login</button>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linhares da Beira</title>
+    <link rel="icon" type="image/x-icon" href="/imagens/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/imagens/logo.png" alt="Logo">
+        </div>
+        <div class="titulo">
+            <h1>Aldeias Históricas</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+               <a class="navbar-nav" href="paginainicial.html">
+                  <img src="/imagens/castle.svg" width="30" height="30" class="mx-2">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+         
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Aldeias Históricas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="almeida.html">Almeida</a></li>
+                           <li><a class="dropdown-item" href="castelorodrigo.html">Castelo Rodrigo</a></li>
+                           <li><a class="dropdown-item" href="linhares.html">Linhares da Beira</a></li>
+                           <li><a class="dropdown-item" href="marialva.html">Marialva</a></li>
+                           <li><a class="dropdown-item" href="monsanto.html">Monsanto</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+         
+                  <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalLogin">Login</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="registo.html">Registo</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>   
+    </div>
+
+    <div class="container">
+        <main>
+            <h3 style="margin-top: 20px;">Linhares da Beira</h3>
+            <p>Aldeia medieval do século XII, Linhares da Beira possui uma diversidade arquitetónica e artística ímpar, fruto do legado de várias épocas. Em 1169, recebeu o seu primeiro foral, atribuído por D. Afonso Henriques. Mas só mais tarde, no reinado de D. Dinis, foi erigido o seu imponente Castelo, ex-líbris da aldeia e principal cartão de visita nos nossos dias. Deambular pelas ruas desta aldeia museu é fazer uma incursão ao passado, à sua história, e sentir a brisa do Vale do Mondego a acariciar-nos o rosto.</p>
+
+            <div id="carouselAldeias" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselAldeias" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/imagens/linhares da beira/linhares8.jpg"  class="altura" alt="Imagem de Linhares da Beira">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/linhares da beira/linhares3.jpg" class="altura" alt="Imagem de Linhares da Beira">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/linhares da beira/linhares4.jpg"  class="altura" alt="Imagem de Linhares da Beira">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/linhares da beira/linhares9.jpg" class="altura" alt="Imagem de Linhares da Beira">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagens/linhares da beira/linhares6.jpg" class="altura" alt="Imagem de Linhares da Beira">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAldeias" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAldeias" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Seguinte</span>
+                </button>
+            </div>
+
+            <br/>
+
+            <h3 style="margin-top: 20px;">História</h3>
+
+            <p>
+                Vila de fundação medieval, com foral concedido em 1169 por D. Afonso Henriques, que, em 1855 perde este estatuto com a reforma administrativa liberal. Apesar do local ter conhecido a fixação de povos pré-romanos e existir registo escrito da passagem de romanos, visigodos e muçulmanos, a história de Linhares, tem origem no contexto gerado com a reconquista Cristã. Estabilizadas as fronteiras do reino português, Linhares continuou a ter significado estratégico pelo menos até ao século XVII, pois fazia parte do sistema defensivo que guardava a Bacia do Mondego, na retaguarda das fortificações da raia beirã.
+                <br/><br/>
+                A estrutura de ocupação do espaço da antiga vila de Linhares conjuga assim um tipo característico de povoamento medieval (séculos XII-XIV), com desenvolvimentos significativos no período quinhentista (século XVI). Nesta centúria a vila terá atingido uma configuração próxima da atual, ainda que no património edificado pesem, pelo impacto no tecido urbano, algumas construções mais tardias (séculos XVII-XIX).
+                <br/><br/>
+                O castelo, implantado num cabeço rochoso a cerca de 820 m de altitude e dominando o Vale do Mondego, constitui o núcleo gerador do aglomerado. Na encosta, sobranceira à várzea de Linhares e cruzada por antiga via romana, estendeu-se a povoação: o sistema fortificado, entregue a um alcaide e dispondo de pequena guarnição militar, defendia um território bem como a sua população e bens; o foral, concedido pelo Rei, prescrevia a autonomia concelhia e organizava a vida económica e social do povoado; a Igreja estabeleceu as paróquias.
+                <br/><br/>
+                A vila descreve, no sopé do Castelo, um perímetro triangular, em cujos vértices se situam três espaços ordenadores da malha urbana: o Lg. da Misericórdia, à entrada da povoação; o Lg. de S. Pedro, na zona denominada “Cimo da Vila”; e o Lg. da Igreja, próximo do Castelo e no acesso ao Campo da Corredoura, terreno de usufruto comum. Estes largos definiram-se em torno de igrejas – hoje desaparecida a de S. Pedro – e constituíam o centro das paróquias de fundação medieval. Na base do triângulo e no ponto oposto à Matriz, localiza-se o Lg. do Pelourinho, outrora o centro cívico da Vila.
+                <br/><br/>
+                Da assistência ao peregrino, pobres e doentes sobra-nos o edifício do Lg. da Misericórdia, que acolheu duas instituições típicas da sociedade medieval e moderna – a Albergaria e o Hospital. Também do abastecimento de água, temos para observar três fontes dos séculos XII, XVI e XIX. Além da casa tradicional e popular disseminada por toda a vila, contam-se as casas nobres dos séculos XVIII-XIX, destacando-se janelas e portas decoradas ao gosto Manuelino (século XVI), quase sempre moradias de proprietários agrícolas mais abastados ou da burguesia local ligada ao comércio. Entre estes encontrava-se a comunidade judaica, minoria étnica e religiosa obrigada a viver apartada da comunidade cristã e cujo bairro – judiaria – se situava numa transversal à Rua Direita: sobre a porta de acesso ao bairro (Arco) figura uma das mais elaboradas janelas manuelinas de Linhares.
+            </p>
+
+            <br/>
+
+            <hr class="hr"/>
+
+            <h3 class="text-center">Visite Linhares da Beira</h3>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iiCRaFJv2jk?si=EDDD3XXdqGWp2-wm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        
+            <br/><br/>
+            
+            <div class="row">
+                <div class="col-7">
+                    <h5 class="text-center">Como chegar</h5>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52743.0103072644!2d-7.49146473564355!3d40.543057728178226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3cdd3f82f9f4e5%3A0x7faab870f7247bd7!2sLinhares!5e1!3m2!1sen!2spt!4v1731254021485!5m2!1sen!2spt" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <table>
+                        <thead>
+                            <h5>Como vai estar o tempo</h5>
+                        </thead>
+                        <tbody id="tempo">
+                            <tr>
+                                <th style="width:130px;"></th>
+                                <th style="width:50px;"></th>
+                                <th style="width:50px;"></th>
+                                <th style="width:50px;"></th>
+                            </tr>
+                        </tbody>
+                        <script>
+                            let url = 'https://api.ipma.pt/open-data/forecast/meteorology/cities/daily/1090700.json';
+                
+                            fetch(url)
+                                .then(response =>
+                                response.json()).then(data => {
+                                const dados = Array.from(data.data);
+                                for (var i = 0; i < dados.length; i++) {
+                                    var table = document.getElementById("tempo");
+                                    var row = table.insertRow(-1);
+                                    var cell1 = row.insertCell(0);
+                                    var cell2 = row.insertCell(1);
+                                    var cell3 = row.insertCell(2);
+                                    var cell4 = row.insertCell(3);
+
+                                    if (dados[i].idWeatherType === 1) {
+                                        var imagem = cell2.innerHTML = "<img src='/imagens/sol.png'/>";
+                                    }
+                                    else if (dados[i].idWeatherType >= 24 && dados[i].idWeatherType <= 27 || dados[i].idWeatherType === 16 || dados[i].idWeatherType === 17 || dados[i].idWeatherType >= 2 && dados[i].idWeatherType <= 5) {
+                                        var imagem = cell2.innerHTML = "<img src='/imagens/nublado.png'/>";
+                                    }
+                                    else if (dados[i].idWeatherType <= 23 && dados[i].idWeatherType >= 18 ||dados[i].idWeatherType >= 6 && dados[i].idWeatherType <= 8) {
+                                        var imagem = cell2.innerHTML = "<img src='/imagens/aguaceiros.png'/>";
+                                    }
+                                    else if (dados[i].idWeatherType <= 15 && dados[i].idWeatherType >= 9 ||dados[i].idWeatherType === 8) {
+                                        var imagem = cell2.innerHTML = "<img src='/imagens/chuva.png'/>";
+                                    }
+
+                                    const diaTempo = dados[i].forecastDate;
+                                    const objetoData = new Date(diaTempo);
+                                    const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+                                    const diaMes = objetoData.getDate();
+                                    const mes = meses[objetoData.getMonth()];
+                                    var dia = cell1.innerHTML = `${diaMes} de ${mes}`;
+                                        
+                                    var tMinima = cell3.innerHTML = dados[i].tMin + "ºC";
+                                    var tMaxima = cell4.innerHTML = dados[i].tMax + "ºC";
+                                 }
+                             })
+                            .catch(error => console.log(error))
+                        </script>
+                    </table>
+                </div>
+            </div>
+
+            <br/><br/>
+
+            <div class="accordion accordion-flush" id="accordionLinhares">
+                <div class="accordion-item">
+                    <h1 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        O que visitar
+                        </button>
+                    </h1>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionLinhares">
+                        <div class="accordion-body">
+                            <h5 class="text-center">O que visitar</h5>
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="https://aldeiashistoricasdeportugal.com/wp-content/uploads/2019/02/rascunho-automatico-517.jpg" class="card-img-top" alt="Castelo de Linhares da Beira">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Castelo de Linhares da Beira</h5>
+                                                <p class="card-text">O circuito interior envolvido pelas muralhas está dividido em dois espaços fechados: um deles, a Oeste, de maior dimensão, pode ter funcionado como ponto de apoio à torre de Menagem, sendo, portanto uma zona militar onde estão localizadas as cisternas; já o outro, a Este, serviu de resguardo das populações da vila e dos bens essenciais à sobrevivência em caso de cerco ou de ataques inimigos.</p>
+                                                <p>Fonte: Aldeias Históricas de Portugal</p>
+                                                <a href="https://maps.app.goo.gl/8jJmKV8eAnVGCBYM6" class="btn btn-light">Google Maps</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="https://aldeiashistoricasdeportugal.com/wp-content/uploads/2019/01/antiga-casa-da-camara-e-cadeia-3.jpg" class="card-img-top" alt="Antiga Casa da Câmara e Cadeia">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Antiga Casa da Câmara e Cadeia</h5>
+                                                <p class="card-text">Edifício de dois pisos, ornamentado com as armas de D. Maria (1777-1816), encontra-se enquadrado pelas outras construções municipais como o fórum e o pelourinho. Nos tempos medievos terá funcionado como cadeia, como se comprova pela grade da janela inferior esquerda. Construção de dois pisos, abrindo o térreo, no seu interior, para um átrio com dois compartimentos laterais, e ascendendo-se por dois planos de escadas ao andar superior. Neste último, existe um salão nobre e mais dois compartimentos. Foi escola e residência de professores e, nos dias de hoje, alberga as instalações da Junta de Freguesia de Linhares, tendo como recheio algumas peças decorativas de interesse histórico.</p>
+                                                <p>Fonte: Aldeias Históricas de Portugal</p>
+                                                <a href="https://maps.app.goo.gl/p8xW6VHf8SXvBwLh8" class="btn btn-light">Google Maps</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="https://aldeiashistoricasdeportugal.com/wp-content/uploads/2019/02/rascunho-automatico-707.jpg" class="card-img-top" alt="Fonte de Mergulho e Fórum">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Fonte de Mergulho e Fórum</h5>
+                                                <p class="card-text">Construção em pedra, que exibe as armas do município, era o local de reunião da assembleia de homens bons de Linhares, onde se tomavam as decisões de carácter administrativo, legislativo e judicial, conferindo sentido à individualidade governativa do concelho. Nestas assembleias os oficiais e homens bons de Linhares agiriam em conformidade com o texto da carta de foral que Linhares havia recebido. O mais antigo foral foi concedido por D. Afonso Henriques em 1169 e seguia o modelo dos forais de Salamanca. No início do século XVI, D. Manuel procedeu à conhecida reforma dos forais e Linhares recebeu uma nova carta, datada de 1510. O espaço de reunião, dito «fórum», monumento verdadeiramente singular no nosso país, está situado no "Largo do Pelourinho" e exibe uma construção granítica à qual se acede por três degraus. No interior encontra-se uma mesa rodeada de bancos corridos, vendo-se por detrás o brasão de Linhares. Este espaço chegou a estar envolvido por uma armação em madeira, coberta com telha, para melhor proteger os homens que aí deliberavam. É interessante verificar que está assente sob uma nascente de água, com abertura em arco quebrado, apresentando no seu interior uma cobertura em abóbada.</p>
+                                                <p>Fonte: Aldeias Históricas de Portugal</p>
+                                                <a href="https://maps.app.goo.gl/Mfnq3TKAuNvbcGbi7" class="btn btn-light">Google Maps</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="https://aldeiashistoricasdeportugal.com/wp-content/uploads/2019/02/rascunho-automatico-504.jpg" class="card-img-top" alt="Solar Corte Real">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Solar Corte Real</h5>
+                                                <p class="card-text">Data do século XVIII, imponente na sobriedade do seu traçado, é rematado por uma cornija em que se inscreve um brasão. Nos anos 40 do século XX o edifício ficou profundamente danificado, tendo sido restaurado e hoje dá lugar a uma unidade de alojamento.</p>
+                                                <p>Fonte: Aldeias Históricas de Portugal</p>
+                                                <a href="https://maps.app.goo.gl/v9TTyiu4bekRb8pJA" class="btn btn-light">Google Maps</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Onde comer e onde ficar
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionLinhares">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h2 class="text-center">Restaurantes</h2>
+                                    <ul class="list-group">
+                                        <li class="list-group-item text-center">
+                                            <h5>Cova da Loba <i class="fa-solid fa-utensils"></i></h5>
+                                            <p>R. da Igreja n, 6360-080<br/>Contacto: 271 776 119</p>
+                                            <a href="https://maps.app.goo.gl/uVVv3kNGzggpqnnC8" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                        <li class="list-group-item text-center">
+                                            <h5>Café da Maria  <i class="fa-solid fa-utensils"></i></h5>
+                                            <p>R. Direita, 6360-081<br/>Contacto: Não disponível</p>
+                                            <a href="https://maps.app.goo.gl/6UyfU9sNk94HN5Zo6" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h2 class="text-center">Alojamento</h2>
+                                    <ul class="list-group">
+                                        <li class="list-group-item text-center">
+                                            <h5>Agroturismo A Fidalga  <i class="fa-solid fa-bed"></i></h5>
+                                            <p>Quinta da Portela s/n, Linhares da Beira, 6360-080 Guarda<br/>Contacto: 962 522 893</p>
+                                            <a href="https://maps.app.goo.gl/KfCU5YaRU3bZC84P7" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                        <li class="list-group-item text-center">
+                                            <h5>Inatel Linhares da Beira Hotel Rural <i class="fa-solid fa-bed"></i></h5>
+                                            <p>Largo da Misericórdia, 6360-080<br/>Contacto: 271 776 081</p>
+                                            <a href="https://maps.app.goo.gl/wbRQeu8RMLGEmAiU9" class="btn btn-light">Google Maps</a><br/>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/><br/>
+
+        </main>
+
+        <footer>
+            <div class="text-center p-3 bg-light">
+                Aldeias Históricas 2024
+            </div>
+        </footer>
+
+    </div> 
+
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Login</h5>
+            </div>
+            <div class="modal-body">
+              <form>
+                Utilizador <input type="text" class="form-control" id="nomeutilizador" placeholder="Introduza o nome de utilizador" required/>
+                Password <input type="password" class="form-control" id="password" placeholder="Introduza uma password" required/>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-light">Login</button>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
